@@ -164,8 +164,8 @@ export const HomePage: React.FC<HomePageProps> = ({
             <span>Commercial Kitchen & Wholesale Produce — DHA Phase 6, Lahore</span>
           </div>
 
-          {/* Main Headline in The Seasons Typography */}
-          <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.12] text-white drop-shadow-sm max-w-4xl">
+          {/* Main Headline in The Seasons Typography - strictly single line on mobile */}
+          <h1 className="font-serif text-[21px] min-[360px]:text-[24px] min-[390px]:text-[27px] min-[420px]:text-[30px] sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight text-white drop-shadow-sm max-w-4xl whitespace-nowrap">
             Freshness You Can Count On.
           </h1>
 
