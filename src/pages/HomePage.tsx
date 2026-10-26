@@ -158,9 +158,9 @@ export const HomePage: React.FC<HomePageProps> = ({
 
         {/* Centrally Aligned Hero Content Container */}
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 text-center text-white flex flex-col items-center">
-          {/* Location & B2B Badge */}
-          <div className="inline-flex items-center space-x-2 px-4 py-1.5 bg-white/10 border border-white/20 rounded-full text-xs font-semibold tracking-wide text-white/90 backdrop-blur-md mb-6 shadow-sm">
-            <span className="w-2 h-2 rounded-full bg-[#22C55E] animate-pulse" />
+          {/* Location & B2B Badge - strictly single-line on mobile */}
+          <div className="inline-flex items-center space-x-1.5 sm:space-x-2 px-2.5 sm:px-4 py-1 sm:py-1.5 bg-white/10 border border-white/20 rounded-full text-[10px] min-[390px]:text-[11px] sm:text-xs font-semibold tracking-tight text-white/95 backdrop-blur-md mb-6 shadow-sm whitespace-nowrap max-w-[96vw]">
+            <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-[#22C55E] animate-pulse shrink-0" />
             <span>Commercial Kitchen & Wholesale Produce — DHA Phase 6, Lahore</span>
           </div>
 
