@@ -1,0 +1,1476 @@
+# MASTER WEBSITE BUILD PROMPT — FRESH FARM VEGETABLES
+## Complete Premium E-Commerce Website | Production-Ready Implementation
+
+Act as a senior full-stack developer, UI/UX designer, e-commerce architect, conversion optimization specialist, and professional brand designer.
+
+Build a complete, professional, modern, fully responsive e-commerce website for **Fresh Farm Vegetables**, a premium fresh-produce supplier based in DHA Phase 6, Lahore, Pakistan.
+
+This must be a real, functional website application, not just a design mockup, static landing page, incomplete prototype, or collection of screenshots. Implement all essential pages, working navigation, product filtering, product details, shopping cart, checkout, order processing, WhatsApp order handoff, secure payment gateway integration, validation, and order confirmation.
+
+Use the business information provided below. Do not invent missing business information, contact details, product prices, certifications, reviews, or company achievements.
+
+---
+
+# 1. BUSINESS INFORMATION
+
+**Business name:** Fresh Farm Vegetables
+
+**Primary tagline:** Premium Quality, Farm-Fresh Produce for Professional Kitchens
+
+**Business description:**
+
+Fresh Farm Vegetables specializes in supplying premium-quality, farm-fresh vegetables to restaurants, hotels, catering businesses, and professional kitchens. The business focuses on freshness, product quality, consistency, and reliable supply.
+
+**Main specialty:**
+- Iceberg Lettuce
+- Vacuum-Packed Lettuce
+
+**Phone / WhatsApp:** 0333-4934403
+
+**WhatsApp international number:** +92 333 4934403
+
+**Business address:** Commercial CCA, Phase 6, Defence Housing Authority (DHA), Lahore, Pakistan.
+
+**Instagram handle:** @freshfarmvegetables
+
+**Facebook handle:** @freshfarmvegetables
+
+**Email:** The actual Gmail address has not been provided. Do not invent an email address. Keep the email field configurable and display an email contact link only after a valid business email is provided.
+
+**Business model:** Fresh vegetable sales, bulk supply, and recurring orders for restaurants, hotels, and commercial kitchens.
+
+**Market:** Lahore, Pakistan, with the website architecture prepared for additional delivery areas when configured.
+
+**Currency:** Pakistani Rupee (PKR / Rs.).
+
+**Pricing policy:** Vegetable rates fluctuate according to daily market prices. Product prices must be controlled through an editable admin panel rather than fabricated or permanently hardcoded into the website.
+
+---
+
+# 2. MAIN OBJECTIVE
+
+Create a premium, trustworthy e-commerce website that allows customers to:
+
+1. Explore fresh local and imported vegetables.
+2. Search and filter products by category.
+3. Open product detail pages.
+4. Select available quantities and units.
+5. Add multiple products to a shopping cart.
+6. View cart contents, quantities, applicable prices, and order totals.
+7. Enter delivery and customer information through a complete checkout form.
+8. Select an available payment method.
+9. Place an order through a properly implemented order-processing workflow.
+10. Send the complete order summary to the business through WhatsApp.
+11. Complete online payment when a real payment gateway has been configured.
+12. Receive a unique order reference and clear confirmation of the next steps.
+13. Contact the business directly for daily rates, bulk quantities, and recurring supply requirements.
+
+The website must serve both individual customers and professional B2B buyers.
+
+The primary conversion actions are **Shop Vegetables**, **Add to Cart**, **Request Today's Rates**, **Proceed to Checkout**, and **Order on WhatsApp**.
+
+---
+
+# 3. DESIGN DIRECTION AND BRAND IDENTITY
+
+Create a sophisticated, editorial, premium agricultural brand experience. The design must feel like a carefully art-directed produce supplier's website, not a generic AI-generated template.
+
+## Typography
+
+Use the following typography direction throughout the website:
+
+**Primary display font: The Seasons**
+
+Use The Seasons for:
+- Main hero headings.
+- Major page titles.
+- Section headings.
+- Featured product headings.
+- Brand storytelling headlines.
+- Selected promotional statements.
+
+**Signature typography: Elegant handwritten signature-style script**
+
+Use a refined signature-style typeface for small decorative accents, short supporting phrases, and occasional editorial highlights.
+
+Suggested visual direction: Alex Brush or a comparable elegant, readable script font, subject to legitimate availability and licensing.
+
+Use signature typography sparingly. It must feel intentional, sophisticated, and handcrafted, never childish or overly decorative.
+
+**Body font:** Use a clean, modern sans-serif such as Inter, DM Sans, or a suitable alternative for paragraphs, navigation, form fields, product information, prices, buttons, and checkout.
+
+**Technical font requirement:** Load the actual The Seasons font only when a properly licensed, available font file or legitimate font source exists. If it is unavailable, use a visually compatible high-quality serif fallback. Do not pretend that a fallback is the original font.
+
+Typography must remain legible on small mobile screens. Do not use the script font for long paragraphs, legal text, product prices, checkout forms, or essential navigation.
+
+## Color palette
+
+Use a restrained, natural, premium palette:
+
+- Warm ivory background: #FAF8F3
+- Deep forest green: #244A36
+- Rich dark green: #183A2B
+- Muted sage: #A8B49A
+- Fresh produce green: #6B8E5A
+- Warm earthy brown: #9B6738
+- Soft beige: #E9E2D5
+- Main text: #252923
+- Secondary text: #6F756D
+- White: #FFFFFF
+- Subtle borders: #E5E3DA
+
+Maintain contrast and use the earthy brown as an accent, not a dominant background color.
+
+## Overall visual style
+
+The website must be:
+- Premium and editorial.
+- Minimal, spacious, and professionally art-directed.
+- Fresh, organic, and trustworthy.
+- Suitable for restaurants, hotels, chefs, and wholesale customers.
+- Consistent across all pages.
+- Visually attractive without unnecessary decoration.
+- Designed around typography, whitespace, photography, and clear information hierarchy.
+
+Use generous margins, balanced layouts, refined spacing, subtle borders, clean product cards, strong typography, and carefully placed calls to action.
+
+Avoid excessive rounded cards, exaggerated gradients, oversized floating elements, glassmorphism, heavy shadows, random decorative shapes, or generic dashboard-like layouts on the storefront.
+
+Do not use emojis anywhere in the website interface. Use clean typography, photography, spacing, and simple professional icons only when genuinely useful.
+
+---
+
+# 4. PHOTOGRAPHY AND IMAGERY REQUIREMENTS
+
+Do not generate, fabricate, or use AI-generated images.
+
+Use authentic, high-quality photography of real vegetables and genuine agricultural produce.
+
+Prioritize:
+- Real iceberg lettuce.
+- Fresh vacuum-packed lettuce.
+- Tomatoes, onions, carrots, and capsicum.
+- Broccoli, cabbage, cucumbers, and potatoes.
+- Fresh herbs.
+- Premium imported vegetables.
+- Professional produce preparation.
+- Restaurant kitchens and chefs handling fresh ingredients.
+- Carefully arranged produce in natural light.
+
+Use licensed stock photography from legitimate sources, real business-owned images, or genuine product photographs supplied by the business.
+
+Do not use stock imagery in a way that misrepresents the supplier's own premises, packaging, staff, or inventory.
+
+Important requirements:
+- Do not use images containing visible stock watermarks.
+- Do not use AI-generated vegetable photographs.
+- Do not stretch product images.
+- Use consistent image ratios.
+- Optimize images for fast loading and mobile data usage.
+- Apply restrained image cropping and natural color treatment.
+- Use meaningful alt text.
+- Provide graceful fallbacks for missing images.
+- Never generate misleading product packaging or fake brand labels.
+
+For image assets that cannot be obtained automatically, provide clear placeholders that can be replaced with authentic business photography. Do not use a broken-image icon or unrelated photography.
+
+---
+
+# 5. WEBSITE STRUCTURE
+
+Build the following complete public-facing pages:
+
+1. Home
+2. Shop All Vegetables
+3. Fresh Local Produce
+4. Imported Vegetables
+5. Product Detail
+6. Shopping Cart
+7. Checkout
+8. Order Confirmation
+9. About Us
+10. Restaurant and Wholesale Supply
+11. Contact Us
+12. Frequently Asked Questions
+13. Delivery and Order Policy
+14. Privacy Policy
+15. Terms and Conditions
+16. Refund and Cancellation Policy
+
+Also provide a protected admin area for product management, pricing, orders, inventory, and payment configuration.
+
+Every public page must have working navigation, consistent branding, responsive layouts, appropriate page titles, and relevant content.
+
+Do not create links that lead nowhere. Do not leave any essential page as an unfinished placeholder.
+
+---
+
+# 6. HEADER AND NAVIGATION
+
+Design a refined, responsive website header.
+
+## Desktop header
+
+Include:
+- Fresh Farm Vegetables wordmark.
+- Home.
+- Shop.
+- Local Produce.
+- Imported Vegetables.
+- Wholesale Supply.
+- About Us.
+- Contact.
+- Search control.
+- Shopping cart icon with live item count.
+- Primary WhatsApp inquiry or order action.
+
+The logo should be typographic and elegant, using the brand's display typography. Do not invent an official logo or complicated emblem.
+
+Use a clean light background with subtle borders. The header may become sticky after scrolling, but it must not obscure page content.
+
+## Mobile header
+
+Create a compact mobile navigation with:
+- Brand wordmark.
+- Accessible menu toggle.
+- Shopping cart with a visible item count.
+- Easy-to-reach navigation links.
+- An optional WhatsApp action that does not cover essential controls.
+
+The navigation must work with touch, keyboard, mouse, and screen readers.
+
+Do not place an unnecessary phone-number banner above the header.
+
+---
+
+# 7. HOMEPAGE — COMPLETE DESIGN AND CONTENT
+
+The homepage is the most important marketing page. Make it sophisticated, visually compelling, fast, and conversion-focused.
+
+## Section 1: Hero
+
+Use a spacious two-column desktop composition, adapting to a single-column layout on mobile.
+
+One side contains the headline, supporting copy, and actions. The other side contains authentic, high-quality produce photography.
+
+Suggested headline:
+
+**Freshness You Can Count On.**
+
+Supporting statement:
+
+"Premium-quality vegetables for restaurants, hotels, and professional kitchens. Dependable supply, carefully selected produce, and service built around your business."
+
+Primary button: **Shop Vegetables**
+
+Secondary button: **Request Today's Rates**
+
+Include a subtle signature-style supporting phrase such as "Freshly selected, thoughtfully supplied." Keep it understated.
+
+Include Iceberg Lettuce and Vacuum-Packed Lettuce as featured specialties.
+
+Do not make unsupported claims such as guaranteed same-day delivery, organic certification, pesticide-free produce, or nationwide shipping.
+
+## Section 2: Trust and service highlights
+
+Create a refined horizontal or stacked service-highlight section.
+
+Use only factual, supportable messages:
+- Produce for Professional Kitchens.
+- Daily Market-Based Pricing.
+- Local and Imported Vegetables.
+- Bulk Supply Inquiries.
+
+Use small typographic labels or restrained line icons. Do not use emojis, fake awards, fabricated ratings, or unverified quality badges.
+
+## Section 3: Featured products
+
+Feature the following products prominently:
+- Iceberg Lettuce.
+- Vacuum-Packed Lettuce.
+- Tomatoes.
+- Green Capsicum.
+- Broccoli.
+- Cucumbers.
+- Romaine Lettuce.
+- Cherry Tomatoes.
+
+Each product card must contain:
+- Real product image.
+- Product name.
+- Product category.
+- Unit or pack size when configured.
+- Current price or an appropriate rate-status message.
+- Quantity selector where appropriate.
+- Add to Cart or Request Today's Rate action.
+- Link to the complete product details.
+
+Do not invent product prices.
+
+When an administrator has configured a valid current price, display it clearly in PKR with the relevant unit.
+
+When the price is missing, outdated, awaiting confirmation, or otherwise unavailable, display **Request Today's Rate** rather than a false zero price or fabricated amount.
+
+## Section 4: Main specialty — iceberg and vacuum-packed lettuce
+
+Create an editorial split section with a large authentic product photograph.
+
+Heading:
+
+**Specialists in Iceberg Lettuce**
+
+Supporting copy:
+
+"Discover our focus on iceberg lettuce and vacuum-packed lettuce for restaurants, hotels, and professional kitchens. Contact us to discuss pack sizes, current availability, quantities, and supply requirements."
+
+Include:
+- Explore Lettuce Products.
+- Request Bulk Pricing.
+
+Use elegant typography and generous whitespace.
+
+Do not invent shelf life, food safety certifications, packaging specifications, or preservation guarantees.
+
+## Section 5: Shop by category
+
+Create two visually distinct category groups.
+
+**Fresh Local Produce**
+- Tomatoes.
+- Onions.
+- Red Carrots.
+- Orange Carrots.
+- Green Capsicum.
+- Garlic.
+- Ginger.
+- Iceberg Lettuce.
+- Cabbage.
+- Lemons.
+- Broccoli.
+- Potatoes.
+- Coriander.
+- Cucumbers.
+- Green Chillies.
+
+**Imported Vegetables**
+- Red Capsicum.
+- Yellow Capsicum.
+- Cherry Tomatoes.
+- Rocket (Arugula).
+- Parsley.
+- Basil Leaves.
+- Leeks.
+- Lolo Rose Lettuce.
+- Celery Leaves.
+- Romaine Lettuce.
+- Mushrooms.
+- Rosemary.
+
+Each category card must navigate to the relevant filtered shop listing.
+
+## Section 6: Wholesale and restaurant supply
+
+Make the professional kitchen customer the primary target of this section.
+
+Suggested heading:
+
+**A Reliable Produce Partner for Your Kitchen**
+
+Suggested copy:
+
+"Whether you manage a restaurant, hotel, catering operation, or commercial kitchen, Fresh Farm Vegetables helps you explore a range of fresh local and imported vegetables. Contact us to discuss your regular requirements, order quantities, current rates, and supply arrangements."
+
+Include:
+- Request a Wholesale Quote.
+- Contact Us on WhatsApp.
+
+The quote flow must collect relevant product interests and quantity requirements.
+
+Do not promise delivery schedules, minimum order quantities, discounts, or geographic coverage until these are configured by the business.
+
+## Section 7: How ordering works
+
+Present a simple four-step process:
+
+1. Explore the vegetable catalog.
+2. Select products and quantities.
+3. Review your order and confirm any applicable daily prices.
+4. Submit your order through checkout and complete the selected payment process.
+
+Explain that orders containing unconfirmed prices may require business confirmation before the final payable amount can be established.
+
+## Section 8: Brand story
+
+Heading:
+
+**Fresh Produce. Thoughtful Service.**
+
+Copy:
+
+"Fresh Farm Vegetables supplies vegetables for businesses that rely on fresh ingredients every day. With a selection of local produce and imported vegetables, we aim to make it easier for professional kitchens to explore their requirements and communicate their orders clearly."
+
+Button: Learn More About Us.
+
+Keep the About Us copy factual. Do not invent the company's founding year, farm ownership, team size, customer count, business history, or supplier relationships.
+
+## Section 9: Final conversion section
+
+Use a premium, restrained background and editorial heading.
+
+Suggested heading:
+
+**Planning Your Next Produce Order?**
+
+Supporting text:
+
+"Explore our available vegetables or contact us for current rates and bulk supply inquiries."
+
+Buttons:
+- Browse Products.
+- Order on WhatsApp.
+
+## Section 10: Footer
+
+Include:
+- Brand name and short business description.
+- Quick navigation.
+- Local Produce.
+- Imported Vegetables.
+- Wholesale Supply.
+- Contact details.
+- Lahore address.
+- WhatsApp link.
+- Instagram profile link, subject to verification.
+- Facebook profile link, subject to verification.
+- Policies.
+- Copyright year generated dynamically.
+
+Display the actual phone number accurately.
+
+Do not invent an email address or link the social icons to unrelated accounts. Keep social URLs configurable and verify them before publishing.
+
+---
+
+# 8. COMPLETE PRODUCT CATALOG
+
+Create all products below in the database or product data layer.
+
+Every product must support a unique identifier, product slug, product name, category, description, image, unit, price status, current price where available, active status, and inventory settings.
+
+## Category A: Fresh Local Produce
+
+Create these 15 products:
+
+1. Tomatoes
+2. Onions
+3. Red Carrots
+4. Orange Carrots
+5. Green Capsicum
+6. Garlic
+7. Ginger
+8. Iceberg Lettuce
+9. Cabbage
+10. Lemons
+11. Broccoli
+12. Potatoes
+13. Coriander
+14. Cucumbers
+15. Green Chillies
+
+## Category B: Imported Vegetables
+
+Create these 12 products:
+
+1. Red Capsicum
+2. Yellow Capsicum
+3. Cherry Tomatoes
+4. Rocket (Arugula)
+5. Parsley
+6. Basil Leaves
+7. Leeks
+8. Lolo Rose Lettuce
+9. Celery Leaves
+10. Romaine Lettuce
+11. Mushrooms
+12. Rosemary
+
+## Required product rules
+
+The catalog must contain all 27 products and preserve the spelling provided above.
+
+Assign Iceberg Lettuce and Vacuum-Packed Lettuce as featured specialties. Create Vacuum-Packed Lettuce as an additional product or a properly configurable product variant, depending on how the real product is supplied.
+
+Do not assume a pack size. Let the administrator configure the actual packaging options.
+
+For every product, support the following configurable information:
+- Product name.
+- Product slug.
+- Local or imported category.
+- Product description.
+- Product photographs.
+- Unit type.
+- Pack size.
+- Minimum order quantity.
+- Current selling price.
+- Price per unit or pack.
+- Availability status.
+- Inventory count, when tracked.
+- Featured-product status.
+- Product publication status.
+- Daily price last-updated timestamp.
+- Wholesale pricing, if configured.
+- Product variants, if applicable.
+
+Never assume that every vegetable is sold per kilogram. Allow the administrator to choose kg, gram, piece, bunch, pack, carton, or another appropriate unit.
+
+Display the applicable unit next to each price.
+
+Example format when a price is configured:
+
+**Rs. [Current Price] / kg**
+
+This is a display format, not an actual product price. Populate it from the real database value.
+
+When no current price exists, display:
+
+**Today's Rate: Contact Us**
+
+Provide a working action to request the rate or add the item to a quote-style cart.
+
+Do not insert fake price values into the database to make the storefront look complete.
+
+---
+
+# 9. SHOP PAGE AND PRODUCT FILTERING
+
+Build a complete shopping page with the following features:
+
+- All Products.
+- Fresh Local Produce.
+- Imported Vegetables.
+- Search by product name.
+- Category filter.
+- Availability filter.
+- Sort by product name.
+- Sort by price only when valid prices exist.
+- Featured products.
+- Responsive grid layout.
+- Pagination or an efficient load-more mechanism.
+- Product detail navigation.
+- Add to Cart.
+- Request Today's Rate.
+- Clear indication of unavailable products.
+
+Search must be case-insensitive and produce meaningful results.
+
+Filters must work together correctly.
+
+The product grid must adjust naturally across mobile, tablet, laptop, and large desktop.
+
+Do not include nonfunctional filter buttons or mock product results.
+
+---
+
+# 10. PRODUCT DETAIL PAGES
+
+Every product must have a working detail page with:
+
+- Product image gallery.
+- Product name.
+- Category.
+- Full product description when available.
+- Configured unit and pack-size options.
+- Current selling price or rate-request status.
+- Quantity selector.
+- Availability information.
+- Add to Cart button where the product can be purchased.
+- Request Today's Rate action when necessary.
+- Related products.
+- Clear path to the shopping cart.
+
+Users must not be able to add an unavailable product or exceed its configured stock.
+
+If a product needs price confirmation before purchase, allow the user to request a quote or add it to a quote cart without calculating a false final payable amount.
+
+Show the last rate-update date only when the actual timestamp is available.
+
+---
+
+# 11. FUNCTIONAL SHOPPING CART
+
+Implement a real, persistent shopping cart, not a visual-only cart page.
+
+The cart must support:
+
+- Add products.
+- Increase quantity.
+- Decrease quantity.
+- Remove products.
+- Clear cart.
+- Change unit or pack variant where applicable.
+- Display product thumbnails.
+- Display product names.
+- Display selected units.
+- Display unit prices when configured.
+- Display line totals when calculable.
+- Display a subtotal.
+- Display applicable delivery charges when configured.
+- Display applicable discounts only when valid discount rules exist.
+- Display the order total when all required amounts are known.
+- Continue Shopping.
+- Proceed to Checkout.
+- Send the order for rate confirmation when prices are not yet confirmed.
+
+The cart count must update immediately when products are added or removed.
+
+Cart contents must persist across page navigation and, where appropriate, page refreshes.
+
+Use appropriate browser-side storage for the cart, but never use browser storage as the authoritative source of prices, payment status, stock levels, or order records.
+
+Recalculate prices on the server before accepting an order.
+
+## Mixed-price cart handling
+
+Some products may have confirmed prices while others require daily rate confirmation.
+
+In such cases:
+- Clearly distinguish priced products from products requiring confirmation.
+- Calculate a payable subtotal only for confirmed, valid items.
+- Do not display an invented grand total.
+- Prevent online payment for an order with unresolved mandatory prices.
+- Allow the customer to submit a quote request or continue to WhatsApp rate confirmation.
+- Recalculate all totals once the actual rates have been confirmed.
+
+Use accurate currency formatting for Pakistan.
+
+---
+
+# 12. COMPLETE CHECKOUT EXPERIENCE
+
+Build a clean, professional, multi-section checkout page.
+
+The layout must remain simple enough for mobile users and professional business customers.
+
+## Section A: Customer information
+
+Required fields:
+- Full name.
+- Phone number.
+- WhatsApp number, with an option to use the same number as the phone.
+- Email address, optional unless required by the configured payment provider.
+- Business or restaurant name, optional.
+- Customer type: Individual, Restaurant, Hotel, Catering Business, or Other.
+
+Validate all fields properly.
+
+Phone input should support Pakistani mobile numbers and appropriately formatted international numbers when needed.
+
+## Section B: Delivery information
+
+Include:
+- Delivery address.
+- Area or neighborhood.
+- City.
+- Optional delivery instructions.
+- Billing address, if different.
+- Delivery method only when real methods are configured.
+
+Set Lahore as the default city.
+
+Do not invent delivery charges, guaranteed delivery slots, service areas, or free-delivery thresholds.
+
+If the exact delivery fee depends on the destination or order size, mark it as pending confirmation until the business has configured its rules.
+
+## Section C: Order summary
+
+Display:
+- Product image.
+- Product name.
+- Selected unit.
+- Quantity.
+- Validated unit price.
+- Line total.
+- Subtotal.
+- Delivery charge, where known.
+- Discount, where legitimately applicable.
+- Final total when calculable.
+
+Provide a clear way to return to the cart and correct quantities.
+
+## Section D: Payment methods
+
+Create a configurable payment system supporting the payment methods that the business actually enables.
+
+Possible methods include:
+- Online payment through a supported payment gateway.
+- Cash on Delivery, if enabled by the business.
+- Bank transfer, if the business supplies its verified account instructions.
+- Another explicitly configured manual payment method.
+
+Do not assume every method is available.
+
+Online payment must be available only when the gateway has been properly configured and the order amount is final.
+
+Do not invent a bank account, merchant account, payment QR code, transaction receipt, or payment confirmation.
+
+## Section E: Final consent and submission
+
+Include appropriate links to the configured privacy and terms policies.
+
+Provide a clear order submission control.
+
+Use distinct actions where necessary:
+- Pay Securely and Place Order.
+- Place Order and Continue on WhatsApp.
+- Request Price Confirmation.
+
+Only display an action that is valid for the current order and the enabled configuration.
+
+Prevent duplicate submissions and clearly communicate errors to the customer.
+
+---
+
+# 13. WHATSAPP ORDERING — ESSENTIAL FUNCTIONALITY
+
+WhatsApp is a core order channel for this business.
+
+Use the WhatsApp destination number:
+
+**923334934403**
+
+For a customer-initiated WhatsApp conversation, use a properly URL-encoded WhatsApp link in this form:
+
+https://wa.me/923334934403?text=URL_ENCODED_MESSAGE
+
+Do not expose an unformatted local number in the wa.me destination.
+
+## Required WhatsApp behavior
+
+The user must be able to send an order through WhatsApp from:
+- Product detail pages.
+- The shopping cart.
+- Checkout.
+- The order confirmation page.
+
+The most important flow is:
+
+1. Customer adds products to the cart.
+2. Customer opens the cart and checks the products and quantities.
+3. Customer fills out the checkout information.
+4. The website validates the form and checks current product information.
+5. The application creates a durable order or quote-request record in the backend.
+6. The application generates a unique order reference.
+7. The website opens WhatsApp with a prefilled, readable message containing the relevant order information.
+8. The customer reviews the message and presses Send in WhatsApp.
+9. The website shows the appropriate next steps and order reference.
+
+Use a suitable WhatsApp message template such as:
+
+"Hello Fresh Farm Vegetables,
+
+I would like to place an order.
+
+Order Reference: [Generated Order ID]
+
+Customer Name: [Customer Name]
+Business Name: [Business Name, if provided]
+Phone: [Customer Phone]
+Delivery Address: [Customer Address]
+
+Order Items:
+[Product Name] — [Quantity] [Unit] — [Confirmed Unit Price or Rate Pending]
+
+Subtotal: [Calculated Subtotal, if known]
+Delivery: [Confirmed Delivery Charge or Pending Confirmation]
+Total: [Confirmed Grand Total or Pending Price Confirmation]
+
+Payment Method: [Selected Method]
+
+Please confirm product availability, current rates where applicable, and delivery arrangements.
+
+Thank you."
+
+This message must be populated dynamically with the actual order data.
+
+Do not put fake prices, made-up customer details, or unresolved amounts into the message as if they were final.
+
+The message must include the unique order reference so that the business can identify the matching order record.
+
+URL-encode the message correctly, including spaces, line breaks, and special characters.
+
+## Important WhatsApp limitation
+
+A normal wa.me link opens WhatsApp with a prepared message. The customer must still press Send. The website must not falsely report that a WhatsApp message has been delivered merely because the WhatsApp window opened.
+
+Store the order in the backend before opening WhatsApp so the order is not lost if the customer closes WhatsApp.
+
+Clearly distinguish order creation from confirmed WhatsApp delivery.
+
+If automatic business-side WhatsApp notifications are required, implement an optional integration with the official WhatsApp Business Platform/Cloud API. This requires valid business credentials and configuration.
+
+Never expose WhatsApp API access tokens or other secrets in frontend code.
+
+---
+
+# 14. PAYMENT GATEWAY INTEGRATION
+
+Implement a genuine, secure online payment integration architecture.
+
+Because the merchant's payment provider and account credentials have not yet been specified, build the payment layer to support a properly configured provider rather than pretending that a live payment gateway already exists.
+
+Use the payment provider selected by the business and supported for its registered merchant account in Pakistan.
+
+Keep payment-provider logic modular so a supported provider can be integrated or replaced without rewriting the storefront or order workflow.
+
+## Payment requirements
+
+- Payment initialization must happen through a secure backend.
+- Validate the final order amount on the server.
+- Create a unique order identifier.
+- Associate every payment session with the correct order.
+- Pass only server-authoritative order totals to the gateway.
+- Use the provider's approved checkout flow, SDK, or hosted payment page.
+- Validate signed webhooks or equivalent server-to-server payment verification.
+- Confirm successful payment only after verified provider confirmation.
+- Handle failed, cancelled, expired, and pending payments.
+- Prevent duplicate payment processing.
+- Store provider transaction references.
+- Record timestamps and payment status.
+- Never store raw card numbers, CVVs, or other prohibited payment-card data.
+- Do not log passwords, payment secrets, card information, or sensitive authentication tokens.
+- Never mark an order as paid based solely on a browser redirect or client-side success message.
+
+Use environment variables or an approved server-side secrets manager for gateway keys.
+
+Provide an environment configuration example with clearly named variables and fake development-only placeholders where necessary. Never insert real-looking fabricated credentials.
+
+## Payment states
+
+Support at least:
+- Not Required.
+- Pending.
+- Processing.
+- Paid.
+- Failed.
+- Cancelled.
+- Refunded, when a refund has been confirmed.
+
+Payment state and order state must be separate.
+
+## Daily price and payment rules
+
+If an order includes any item whose price still needs confirmation:
+- Do not initialize a payment for a falsely calculated total.
+- Keep the order as a pending quote or pending price confirmation.
+- Let the business confirm the actual rates.
+- Recalculate the final price on the server.
+- Request customer confirmation of any changed amount before charging.
+- Create the payment session only after the amount and order contents are final.
+
+If the payment gateway has not yet been configured, online payment must be marked as not configured. Do not simulate successful payments. Clearly inform the administrator what configuration remains necessary and provide an alternative valid ordering method, such as a WhatsApp rate-confirmation request.
+
+---
+
+# 15. ORDER PROCESSING AND CONFIRMATION
+
+Build a complete order lifecycle.
+
+Each submitted order must receive a unique, non-guessable order reference suitable for customer communication.
+
+Store:
+- Order reference.
+- Customer information.
+- Business name, where provided.
+- Delivery address.
+- Product IDs.
+- Product names and selected units at the time of order.
+- Quantities.
+- Server-calculated prices.
+- Subtotal.
+- Delivery charge, if determined.
+- Final total, when confirmed.
+- Price confirmation status.
+- Order status.
+- Payment method.
+- Payment status.
+- Gateway transaction reference, when applicable.
+- Creation timestamp.
+- Last updated timestamp.
+- WhatsApp handoff state, if tracked.
+- Relevant customer instructions.
+
+Capture appropriate order snapshots so that changing a product name or price later does not silently rewrite historical orders.
+
+## Suggested order statuses
+
+- Quote Requested.
+- Awaiting Price Confirmation.
+- Awaiting Customer Approval.
+- Pending Payment.
+- Order Confirmed.
+- Processing.
+- Ready for Dispatch.
+- Dispatched.
+- Delivered.
+- Cancelled.
+
+Use only the statuses that match the business's actual workflow, and allow authorized administrators to update them.
+
+## Order confirmation page
+
+After a valid submission, display:
+- Success or submission status.
+- Order reference.
+- Submitted item summary.
+- Confirmed amount, when available.
+- Payment status.
+- Selected payment method.
+- Next steps.
+- A prominent WhatsApp action where relevant.
+- A link to continue shopping.
+
+Do not display "Payment Successful" before server-side payment verification.
+
+Do not state that an order has been received through WhatsApp merely because a WhatsApp link was opened.
+
+If there is no customer account system, use an appropriately protected order confirmation reference or secure token. Do not expose other customers' order information through predictable URLs.
+
+---
+
+# 16. ABOUT US PAGE
+
+Create a polished brand storytelling page with authentic vegetable photography.
+
+Suggested heading:
+
+**Fresh Produce for Professional Kitchens**
+
+Suggested copy:
+
+"Fresh Farm Vegetables supplies a selection of local and imported vegetables to restaurants, hotels, catering businesses, and professional kitchens. Our focus is on offering a convenient way to explore produce, check current rates, and communicate supply requirements.
+
+From iceberg lettuce and vacuum-packed lettuce to everyday vegetables and imported herbs, our catalog helps customers bring their produce requirements together in one place.
+
+For current market prices, larger quantities, or regular supply inquiries, contact Fresh Farm Vegetables directly."
+
+Include:
+- Business introduction.
+- Main specialties.
+- Local produce categories.
+- Imported produce categories.
+- Wholesale contact action.
+- Lahore business location.
+
+Do not invent the company's history, farm ownership, customer reviews, certifications, or operating statistics.
+
+---
+
+# 17. RESTAURANT AND WHOLESALE SUPPLY PAGE
+
+Build a dedicated B2B lead-generation page.
+
+Audience:
+- Restaurants.
+- Hotels.
+- Cafés.
+- Catering companies.
+- Professional kitchens.
+- Other commercial food businesses.
+
+Include:
+- Premium editorial hero.
+- Authentic produce photography.
+- Featured lettuce products.
+- Local and imported catalog highlights.
+- A wholesale inquiry form.
+- A WhatsApp contact action.
+
+## Wholesale inquiry fields
+
+- Contact name.
+- Restaurant or company name.
+- Phone number.
+- WhatsApp number.
+- Email, optional.
+- Business location.
+- Products of interest.
+- Estimated quantity.
+- Preferred unit or pack size.
+- One-time or recurring requirements.
+- Additional notes.
+
+Allow users to select multiple products and specify their preferred quantities.
+
+Validate submitted details and store inquiries securely where backend storage is available.
+
+Generate a WhatsApp inquiry message populated with the actual submitted information.
+
+Do not promise a discount, wholesale rate, fixed minimum order, or recurring delivery schedule unless the business has configured it.
+
+---
+
+# 18. CONTACT PAGE
+
+Display the verified business details:
+
+Fresh Farm Vegetables
+
+Phone / WhatsApp: 0333-4934403
+
+Address: Commercial CCA, Phase 6, Defence Housing Authority (DHA), Lahore, Pakistan.
+
+Include:
+- Click-to-call telephone link.
+- Working WhatsApp link.
+- Map showing the business address only when the location can be accurately resolved.
+- Contact form.
+- Wholesale inquiry action.
+- Verified social profile links, when available.
+
+Do not display fabricated operating hours.
+
+If Google Maps integration requires an API key, use a legitimate configurable integration. Do not fabricate a precise map pin if the exact premises are not known.
+
+Contact form submissions must be handled through a genuine backend endpoint or configured service. Provide appropriate validation and error handling.
+
+---
+
+# 19. ADMIN DASHBOARD
+
+Create a protected admin dashboard. It must not be publicly accessible to ordinary shoppers.
+
+Do not build a fake dashboard in which changes disappear or have no effect on the storefront.
+
+Use real authenticated access and server-side authorization for all administrative operations.
+
+## Admin overview
+
+Display relevant business information:
+- Total orders.
+- Orders awaiting action.
+- Pending price confirmations.
+- Pending payments.
+- Confirmed payments.
+- Recent orders.
+- Product availability.
+- Low-stock alerts when inventory tracking is enabled.
+
+Use actual database values only.
+
+## Product management
+
+Administrators must be able to:
+- Add products.
+- Edit product details.
+- Archive products.
+- Manage local and imported categories.
+- Upload genuine product images.
+- Update product descriptions.
+- Configure units and pack sizes.
+- Set current prices.
+- Mark prices as awaiting confirmation.
+- Update prices daily.
+- Record the effective rate date.
+- Configure stock.
+- Mark products unavailable.
+- Feature or unfeature products.
+- Manage variants.
+
+## Order management
+
+Administrators must be able to:
+- Search for orders by reference.
+- Review order details.
+- View customer information according to access permissions.
+- Confirm current product rates.
+- Update delivery charges when authorized.
+- Request customer approval for price changes.
+- Update order status.
+- Review payment status.
+- View legitimate transaction references.
+- Record business notes.
+- Access the order's WhatsApp handoff action.
+- See timestamps for important changes.
+
+Never allow administrators to change an order total without recording the change and retaining an appropriate audit trail.
+
+## Settings
+
+Provide configurable settings for:
+- Business name.
+- Contact phone number.
+- WhatsApp destination number.
+- Business address.
+- Verified social links.
+- Business email.
+- Available cities and delivery areas.
+- Delivery fee rules.
+- Minimum order requirements, if any.
+- Currency.
+- Payment gateway configuration status.
+- Enabled payment methods.
+- Tax rules, if applicable.
+- Order notification settings.
+
+Protect secrets. Store them only in an appropriate server-side configuration or secrets manager.
+
+---
+
+# 20. TECHNICAL ARCHITECTURE
+
+Use a modern, maintainable web application architecture suitable for Google AI Studio and its available development environment.
+
+Preferred approach:
+- React with TypeScript.
+- A maintainable component system.
+- Responsive CSS or a well-structured styling framework.
+- Reusable components.
+- Strong typing for product, cart, order, payment, and customer data.
+- A server-side API or backend functions.
+- Persistent database storage.
+- Authentication and authorization for admin operations.
+- Server-side validation and price calculation.
+- Structured error handling.
+- Environment-based configuration.
+
+Choose a backend and database that are actually supported by the target environment, such as Firebase or another compatible service.
+
+Do not add unnecessary frameworks or services if the environment already provides a suitable solution.
+
+## Required data entities
+
+Implement a suitable data model for:
+- Products.
+- Categories.
+- Product variants.
+- Prices and price-update timestamps.
+- Inventory, when enabled.
+- Customers or customer contact records, where needed.
+- Orders.
+- Order items.
+- Payment records.
+- Wholesale inquiries.
+- Administrative users.
+- Relevant audit events.
+- Configurable business settings.
+
+Use proper identifiers and relationships.
+
+Persist all submitted orders in the database. Do not make the browser local storage the only place where orders are stored.
+
+## Security requirements
+
+- Protect admin routes on the server.
+- Apply strict server-side authorization.
+- Validate and sanitize untrusted inputs.
+- Validate quantities and current prices server-side.
+- Add sensible rate limits to public form and order endpoints.
+- Protect against duplicate submissions.
+- Use secure authentication and session handling.
+- Protect against unauthorized order access.
+- Follow applicable database security rules.
+- Apply CSRF protection where appropriate to the chosen architecture.
+- Avoid exposing sensitive customer details in public API responses.
+- Never place private API keys in client-side code.
+- Never use hardcoded administrator credentials in a production application.
+- Do not expose backend stack traces or secrets to shoppers.
+
+---
+
+# 21. PREMIUM ANIMATIONS AND INTERACTIONS
+
+Use subtle, purposeful motion to improve the customer experience.
+
+Suitable animations:
+- Gentle page-entry transitions.
+- Small button hover and press states.
+- Smooth navigation transitions.
+- Soft image reveals.
+- Subtle product-card interactions.
+- Refined header transitions when scrolling.
+- Responsive cart drawer or panel.
+- Clear loading states for asynchronous operations.
+- Smooth confirmation feedback.
+
+Animation must not interfere with shopping, checkout, or accessibility.
+
+Use a restrained motion duration and avoid excessive parallax, spinning objects, floating produce, exaggerated zoom effects, or constant animated backgrounds.
+
+Respect the user's reduced-motion preference.
+
+Keep interactions fast and responsive on mid-range phones.
+
+---
+
+# 22. RESPONSIVE DESIGN REQUIREMENTS
+
+The website must be genuinely responsive, not simply scaled down.
+
+Test and optimize layouts for:
+- Small mobile phones around 320–375 px wide.
+- Standard mobile phones around 390–430 px wide.
+- Tablets around 768 px wide.
+- Small laptops around 1024 px wide.
+- Desktop screens around 1280–1440 px wide.
+- Large desktop screens above 1600 px wide.
+
+Ensure:
+- No horizontal overflow.
+- No clipped text.
+- No overlapping navigation.
+- No broken product grids.
+- Readable product images and prices.
+- Buttons that are easy to tap.
+- Comfortable form spacing.
+- Correct cart behavior on mobile.
+- Clear checkout hierarchy.
+- Proper modal and drawer sizing.
+- Visible keyboard focus.
+- Accessible mobile menus.
+- Flexible headings.
+- Consistent page gutters.
+- Responsive image sizing.
+- Correct footer stacking.
+
+Do not hide essential checkout controls on small screens.
+
+Do not let a WhatsApp floating action cover the add-to-cart control, cart button, checkout button, or other critical interface elements.
+
+---
+
+# 23. SEO AND PERFORMANCE
+
+Implement a professional technical SEO foundation.
+
+Requirements:
+- Unique page titles.
+- Useful meta descriptions.
+- Canonical URLs when appropriate.
+- Clean, descriptive URL slugs.
+- Logical heading hierarchy.
+- Semantic HTML.
+- Descriptive image alt text.
+- Appropriate Open Graph metadata.
+- A valid sitemap where supported.
+- A robots.txt file.
+- Product structured data only when it reflects real, accurate product data.
+- Business structured data using verified business information.
+- Correct canonicalization and handling of product/category routes.
+
+Never include fake price or review information in structured data.
+
+Performance requirements:
+- Optimize image sizes.
+- Use appropriate modern image formats where supported.
+- Lazy-load below-the-fold images.
+- Avoid unnecessarily large JavaScript bundles.
+- Minimize layout shifts.
+- Use pagination or efficient catalog rendering.
+- Keep animations lightweight.
+- Avoid loading unnecessary external libraries.
+- Provide meaningful loading and error states.
+
+---
+
+# 24. ACCESSIBILITY
+
+Follow modern accessibility best practices.
+
+Include:
+- Appropriate color contrast.
+- Keyboard navigation.
+- Visible focus indicators.
+- Accessible labels for every form control.
+- Helpful validation errors.
+- Screen-reader-friendly buttons and links.
+- Logical heading structure.
+- Text alternatives for meaningful images.
+- Accessible modal and menu behavior.
+- Proper status announcements for cart changes.
+- Reduced-motion support.
+
+Never communicate product availability, price confirmation, payment status, or form errors through color alone.
+
+---
+
+# 25. BUSINESS RULES THAT MUST NOT BE BROKEN
+
+Implement these rules consistently throughout the website.
+
+1. Do not fabricate vegetable prices.
+2. Do not invent company email addresses.
+3. Do not create fake reviews or ratings.
+4. Do not invent delivery charges or delivery guarantees.
+5. Do not claim the business is certified or organic without verified evidence.
+6. Do not create fake customer accounts or demo orders in the live database.
+7. Do not use AI-generated images.
+8. Do not use emojis in the interface.
+9. Do not misrepresent a WhatsApp handoff as a delivered message.
+10. Do not mark a payment as successful without server-side verification.
+11. Do not allow unresolved prices to produce a misleading final total.
+12. Do not expose private keys, administrator credentials, or customer information.
+13. Do not create buttons that have no working action.
+14. Do not allow checkout with invalid or unavailable product selections.
+15. Do not claim the online gateway is operational before the merchant configuration and end-to-end tests are complete.
+
+When actual information is missing, use a clearly labeled configuration field or an honest pending status.
+
+---
+
+# 26. TESTING AND QUALITY ASSURANCE
+
+Before treating the application as complete, test the entire user journey.
+
+## Storefront tests
+
+- Homepage loads correctly.
+- Main navigation works.
+- Every provided product appears in the catalog.
+- Local and imported categories show the correct products.
+- Product search works.
+- Product filters work.
+- Product detail pages load correctly.
+- Images have appropriate fallbacks.
+- No fake prices are displayed.
+
+## Shopping cart tests
+
+- Add an item to the cart.
+- Increase and decrease quantity.
+- Remove an item.
+- Refresh the page and verify expected cart persistence.
+- Check unavailable products.
+- Check products that require daily price confirmation.
+- Verify server-side recalculation of totals.
+
+## Checkout tests
+
+- Submit an empty form and confirm validation.
+- Submit valid customer information.
+- Check invalid phone numbers.
+- Test a priced order.
+- Test a mixed-price order.
+- Test an order that needs rate confirmation.
+- Verify that the backend creates a durable order record.
+- Verify that duplicate submissions do not create unintended duplicate orders.
+- Verify that the generated order reference is correct.
+
+## WhatsApp tests
+
+- Verify the destination number.
+- Verify correct message encoding.
+- Verify product names and quantities.
+- Verify that pending prices are not represented as confirmed prices.
+- Verify that the generated order reference appears in the message.
+- Verify that WhatsApp is opened only after the order record is successfully created.
+- Clearly communicate that the customer must press Send in WhatsApp.
+
+## Payment tests
+
+Use the gateway's official sandbox or test environment before going live.
+
+- Successful test payment.
+- Failed test payment.
+- Cancelled payment.
+- Pending payment.
+- Duplicate webhook handling.
+- Invalid webhook signature.
+- Incorrect order amount.
+- Repeated payment initialization.
+- Server-side payment verification.
+- Correct relationship between order and payment records.
+
+Never use a real charge to test the application unless specifically authorized and configured for that purpose.
+
+## Admin tests
+
+- Unauthenticated visitors cannot access protected administration functions.
+- Unauthorized users cannot update products or orders.
+- Product price changes appear on the storefront.
+- Missing prices remain clearly marked.
+- Order updates persist after refresh.
+- Payment status is based on genuine verification.
+- Sensitive data is not returned to public endpoints.
+
+## Responsive tests
+
+Check that the homepage, catalog, product page, cart, checkout, confirmation page, and admin panel work across mobile, tablet, and desktop.
+
+Fix all major console errors, broken routes, missing dependencies, invalid links, and form errors.
+
+---
+
+# 27. IMPLEMENTATION WORKFLOW
+
+Build the complete application in a structured sequence, while preserving the full scope of the project.
+
+Phase 1: Establish the project structure, shared styles, typography, color tokens, and reusable components.
+
+Phase 2: Implement the responsive storefront, homepage, navigation, footer, product categories, catalog, search, filtering, and product detail pages.
+
+Phase 3: Implement the persistent cart, quantity management, pricing rules, and customer checkout form.
+
+Phase 4: Implement the backend, database, order creation, server-side price validation, and secure order records.
+
+Phase 5: Implement WhatsApp order and quote-request generation, including properly encoded dynamic order messages.
+
+Phase 6: Implement the payment gateway adapter and secure payment-verification workflow. Keep it disabled until actual provider credentials and configuration are supplied.
+
+Phase 7: Implement the protected admin dashboard, product and price management, order management, and relevant business settings.
+
+Phase 8: Complete About Us, Wholesale Supply, Contact, FAQ, and policy pages.
+
+Phase 9: Implement responsive refinements, accessibility, SEO, performance optimizations, loading states, and error handling.
+
+Phase 10: Test complete user journeys and correct any defects discovered.
+
+Do not stop after creating the hero section or a static design. Continue implementing the complete application and all essential functionality within the supported development environment.
+
+If the environment imposes a specific technical limitation, preserve the intended architecture and implement the closest genuine working alternative. Clearly identify external services that require account credentials or setup.
+
+---
+
+# 28. FINAL ACCEPTANCE CRITERIA
+
+The finished result must look and behave like a professionally developed premium produce e-commerce website.
+
+It must include:
+
+- A complete, polished homepage.
+- The Seasons-inspired editorial typography.
+- Elegant signature-style accents.
+- A consistent natural color palette.
+- Authentic, non-AI vegetable imagery.
+- All 27 listed catalog products plus configurable Vacuum-Packed Lettuce.
+- Local and imported product categories.
+- Search and filtering.
+- Product detail pages.
+- A functioning persistent cart.
+- A complete checkout form.
+- Daily price management.
+- Accurate PKR formatting.
+- WhatsApp order submission and rate-confirmation flows.
+- Durable backend order storage.
+- Correct order references.
+- A real payment integration architecture.
+- Honest payment configuration and verification states.
+- A protected admin dashboard.
+- Product and order management.
+- Wholesale inquiry functionality.
+- All essential informational pages.
+- Responsive mobile, tablet, and desktop layouts.
+- Accessibility, SEO, and performance foundations.
+- Error handling and complete user feedback.
+- No fake prices, fake data, dead links, or simulated payment success.
+
+## FINAL INSTRUCTION
+
+Start building the actual Fresh Farm Vegetables website application now.
+
+Prioritize a refined, professional design inspired by high-end editorial branding: The Seasons display typography, elegant signature accents, natural colors, authentic produce photography, generous whitespace, and subtle animations.
+
+At the same time, prioritize real e-commerce functionality, secure order processing, honest daily-price handling, working WhatsApp order handoff, and a properly architected payment integration.
+
+Do not deliver only a homepage mockup, a visual prototype, or a written explanation of how the website could be built.
+
+Deliver the most complete, functional implementation supported by the environment, and clearly identify any external credentials, payment-provider accounts, genuine product photographs, or verified business details that must be supplied before the website can be launched in production.

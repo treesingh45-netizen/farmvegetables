@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "The Seasons", "Cormorant Garamond", Georgia, serif;
+  --font-serif: "The Seasons", "Cormorant Garamond", Georgia, serif;
+  --font-script: "Alex Brush", cursive;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  
+  --color-ivory: #FAF9F5;
+  --color-forest: #14532D;
+  --color-dark-green: #0A331B;
+  --color-brand-green: #15803D;
+  --color-vibrant-green: #16A34A;
+  --color-light-green: #DCFCE7;
+  --color-sage: #86A789;
+  --color-fresh: #22C55E;
+  --color-tomato: #DC2626;
+  --color-earth: #854D0E;
+  --color-beige: #F4EFE6;
+  --color-subtle-border: #E6E4DD;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF9F5;
+  color: #1F2937;
+}
