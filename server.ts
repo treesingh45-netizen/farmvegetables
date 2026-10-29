@@ -39,12 +39,34 @@ function loadDatabase(): AppDatabase {
     try {
       const content = fs.readFileSync(DATA_FILE, 'utf-8');
       const parsed = JSON.parse(content);
-      return {
-        products: parsed.products || INITIAL_PRODUCTS,
+      
+      // Merge INITIAL_PRODUCTS to ensure uploaded image URLs, local names, ratings, and weights are preserved
+      const existingList = Array.isArray(parsed.products) ? parsed.products : [];
+      const mergedProducts = INITIAL_PRODUCTS.map(initialProd => {
+        const existing = existingList.find((p: Product) => p.id === initialProd.id);
+        if (existing) {
+          return {
+            ...existing,
+            imageUrl: initialProd.imageUrl,
+            name: initialProd.name,
+            localName: initialProd.localName,
+            rating: initialProd.rating,
+            weightOptions: initialProd.weightOptions,
+            packSize: initialProd.packSize,
+            description: initialProd.description
+          };
+        }
+        return initialProd;
+      });
+
+      const updatedDb: AppDatabase = {
+        products: mergedProducts,
         orders: parsed.orders || [],
         inquiries: parsed.inquiries || [],
         settings: { ...INITIAL_SETTINGS, ...(parsed.settings || {}) }
       };
+      fs.writeFileSync(DATA_FILE, JSON.stringify(updatedDb, null, 2), 'utf-8');
+      return updatedDb;
     } catch {
       // Fallback if corrupt
     }

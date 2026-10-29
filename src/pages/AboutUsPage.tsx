@@ -29,8 +29,8 @@ export const AboutUsPage: React.FC<AboutUsPageProps> = ({ settings, onNavigate }
         
         <div className="md:col-span-6 relative aspect-4/3 rounded-sm overflow-hidden border border-[#E5E3DA] shadow-sm bg-white">
           <img
-            src="https://images.unsplash.com/photo-1556801712-76c8eb07bbc9?auto=format&fit=crop&w=800&q=80"
-            alt="Farm fresh vegetables sorting"
+            src="/assets/aistudio/image_71354491.png"
+            alt="Vibrant fresh vegetable display in market"
             className="w-full h-full object-cover"
           />
         </div>

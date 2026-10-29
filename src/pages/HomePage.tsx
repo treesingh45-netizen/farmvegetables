@@ -25,37 +25,37 @@ const MENU_CATEGORIES: MenuCategory[] = [
   {
     id: 'all',
     label: 'Vegetables',
-    imageUrl: 'https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=240&q=80'
+    imageUrl: '/assets/aistudio/Gemini_Generated_Image_285xhi285xhi285x_96f0de3d.jpg'
   },
   {
     id: 'fresh-cut',
     label: 'Fresh Cut Veges',
-    imageUrl: 'https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?auto=format&fit=crop&w=240&q=80'
+    imageUrl: '/assets/aistudio/Gemini_Generated_Image_27tdju27tdju27td_5097d988.jpg'
   },
   {
     id: 'herbs',
     label: 'Herbs',
-    imageUrl: 'https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=240&q=80'
+    imageUrl: '/assets/aistudio/Gemini_Generated_Image_ervsx9ervsx9ervs_f7333b33.jpg'
   },
   {
     id: 'leafy',
     label: 'Leafy Vegetables',
-    imageUrl: 'https://images.unsplash.com/photo-1556801712-76c8eb07bbc9?auto=format&fit=crop&w=240&q=80'
+    imageUrl: '/assets/aistudio/Gemini_Generated_Image_sq90nlsq90nlsq90_5237ba27.jpg'
   },
   {
     id: 'regular',
     label: 'Regular Vegetables',
-    imageUrl: 'https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=240&q=80'
+    imageUrl: '/assets/aistudio/Gemini_Generated_Image_y3dxf8y3dxf8y3dx_0ebb8b37.jpg'
   },
   {
     id: 'salad',
     label: 'Salad Essentials',
-    imageUrl: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=240&q=80'
+    imageUrl: '/assets/aistudio/Gemini_Generated_Image_i6qfizi6qfizi6qf_bca59404.jpg'
   },
   {
     id: 'world',
     label: 'World Vegetables',
-    imageUrl: 'https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=240&q=80'
+    imageUrl: '/assets/aistudio/Gemini_Generated_Image_joj7q4joj7q4joj7_dcdf0f8f.jpg'
   }
 ];
 
@@ -128,7 +128,19 @@ export const HomePage: React.FC<HomePageProps> = ({
         );
       }
       if (activeCategory === 'world') {
-        return product.category === 'imported';
+        return (
+          product.category === 'imported' ||
+          product.slug.includes('capsicum') ||
+          product.slug.includes('broccoli') ||
+          product.slug.includes('mushrooms') ||
+          product.slug.includes('leeks') ||
+          product.slug.includes('cherry-tomatoes') ||
+          product.slug.includes('lolo-rose') ||
+          product.slug.includes('romaine') ||
+          product.slug.includes('rosemary') ||
+          product.slug.includes('rocket') ||
+          product.slug.includes('basil')
+        );
       }
 
       return true;
@@ -148,12 +160,12 @@ export const HomePage: React.FC<HomePageProps> = ({
         {/* Full-width authentic vegetable background photography (no AI slop) */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=2000&q=85"
-            alt="Farm fresh vegetables background"
+            src="/assets/produce/pexels-eating-vegetables-7660436.jpeg"
+            alt="People eating fresh mixed vegetables"
             className="w-full h-full object-cover object-center scale-105"
           />
-          {/* Subtle dark green gradient overlay ensuring optimal contrast & text legibility */}
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0A2614]/85 via-[#0A331B]/75 to-[#0A2614]/90" />
+          {/* Balanced gradient overlay ensuring high contrast and legibility */}
+          <div className="absolute inset-0 bg-gradient-to-b from-[#0A2614]/80 via-[#0A2614]/60 to-[#0A2614]/85" />
         </div>
 
         {/* Centrally Aligned Hero Content Container */}
@@ -396,9 +408,9 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             <div className="lg:col-span-6 relative aspect-4/3 rounded-2xl overflow-hidden border border-[#E6E4DD] shadow-md bg-white">
               <img
-                src="https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?auto=format&fit=crop&w=1000&q=80"
-                alt="Airtight sealed vacuum packed lettuce"
-                className="w-full h-full object-cover"
+                src="/assets/aistudio/Gemini_Generated_Image_27tdju27tdju27td_5097d988.jpg"
+                alt="Farm fresh iceberg lettuce"
+                className="w-full h-full object-contain p-4"
               />
               <div className="absolute top-4 left-4 bg-[#15803D] text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-xs">
                 Restaurant Standard
@@ -478,8 +490,8 @@ export const HomePage: React.FC<HomePageProps> = ({
           >
             <div className="aspect-16/9 rounded-xl overflow-hidden mb-6 bg-[#FAF9F5]">
               <img
-                src="https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=800&q=80"
-                alt="Fresh Local Produce"
+                src="/assets/produce/pexels-tomato-paste-4361645.jpeg"
+                alt="Tomato paste in ceramic bowl with fresh ingredients"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -507,8 +519,8 @@ export const HomePage: React.FC<HomePageProps> = ({
           >
             <div className="aspect-16/9 rounded-xl overflow-hidden mb-6 bg-[#FAF9F5]">
               <img
-                src="https://images.unsplash.com/photo-1546470427-0d4db154ceb7?auto=format&fit=crop&w=800&q=80"
-                alt="Imported Vegetables and herbs"
+                src="/assets/produce/pexels-healthy-meal-20154174.jpeg"
+                alt="Healthy meal with fresh produce"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
             </div>

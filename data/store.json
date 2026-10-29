@@ -3,10 +3,11 @@
     {
       "id": "ffv-iceberg-lettuce",
       "slug": "iceberg-lettuce",
-      "name": "Iceberg Lettuce",
+      "name": "Iceberg Lettuce (Main Product)",
+      "localName": "Iceberg Salat",
       "category": "local",
       "description": "Crisp, dense, tightly folded heads of premium iceberg lettuce. Selected specifically for restaurant burgers, crisp salads, wraps, and hotel banquets with superior moisture retention and clean trimming.",
-      "imageUrl": "https://images.unsplash.com/photo-1556801712-76c8eb07bbc9?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_27tdju27tdju27td_5097d988.jpg",
       "unit": "kg",
       "packSize": "Per kg / Whole heads",
       "minOrderQuantity": 1,
@@ -17,7 +18,16 @@
       "isFeatured": true,
       "isSpecialty": true,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T08:00:00Z",
+      "lastPriceUpdated": "2026-10-28T08:00:00Z",
+      "rating": {
+        "score": 5,
+        "reviewCount": 14
+      },
+      "weightOptions": [
+        "1 kg",
+        "5 kg Box",
+        "10 kg Crate"
+      ],
       "wholesaleDetails": "Available in 10kg restaurant crates with daily morning dispatch across Lahore.",
       "variants": [
         {
@@ -53,9 +63,10 @@
       "id": "ffv-vacuum-packed-lettuce",
       "slug": "vacuum-packed-lettuce",
       "name": "Vacuum-Packed Lettuce",
+      "localName": "Ready-to-Use Lettuce",
       "category": "local",
       "description": "Freshly harvested, thoroughly sanitised, precision-trimmed, and sealed in food-grade vacuum barrier pouches. Prevents oxidation, locks in crispness, and extends commercial kitchen cold-storage life.",
-      "imageUrl": "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_27tdju27tdju27td_5097d988.jpg",
       "unit": "pack",
       "packSize": "500g Airtight Pack",
       "minOrderQuantity": 1,
@@ -66,7 +77,11 @@
       "isFeatured": true,
       "isSpecialty": true,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T08:00:00Z",
+      "lastPriceUpdated": "2026-10-28T08:00:00Z",
+      "rating": {
+        "score": 5,
+        "reviewCount": 9
+      },
       "wholesaleDetails": "Hermetically vacuum-sealed under hygienic kitchen standards for zero-waste prep lines.",
       "variants": [
         {
@@ -102,49 +117,70 @@
       "id": "ffv-tomatoes",
       "slug": "tomatoes",
       "name": "Tomatoes",
+      "localName": "Timater",
       "category": "local",
       "description": "Firm, uniform, vine-ripened red tomatoes ideal for slicing, gravies, and fresh culinary bases. Hand-sorted to avoid soft or bruised fruit.",
-      "imageUrl": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_285xhi285xhi285x_96f0de3d.jpg",
       "unit": "kg",
       "packSize": "Per kg",
       "minOrderQuantity": 1,
-      "currentPrice": 160,
+      "currentPrice": 180,
       "priceStatus": "priced",
       "isAvailable": true,
       "inventoryCount": 600,
       "isFeatured": true,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:30:00Z",
+      "lastPriceUpdated": "2026-10-28T07:30:00Z",
+      "rating": {
+        "score": 5,
+        "reviewCount": 8
+      },
+      "weightOptions": [
+        "0.25 kg",
+        "0.5 kg",
+        "1 kg"
+      ],
       "wholesaleDetails": "15kg wooden crates or 20kg heavy plastic bins for high-volume kitchen prep."
     },
     {
       "id": "ffv-onions",
       "slug": "onions",
       "name": "Onions",
+      "localName": "Piyaz (KG)",
       "category": "local",
-      "description": "Dry, skin-cured red onions with bold pungent aroma and tight outer skins. Essential foundation produce for authentic curries, gravies, and frying.",
-      "imageUrl": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=800&q=80",
+      "description": "Dry, skin-cured golden-red onions with bold pungent aroma and tight outer skins. Essential foundation produce for authentic curries, gravies, and frying.",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_y3dxf8y3dxf8y3dx_0ebb8b37.jpg",
       "unit": "kg",
       "packSize": "Per kg",
-      "minOrderQuantity": 2,
-      "currentPrice": 190,
+      "minOrderQuantity": 1,
+      "currentPrice": 210,
       "priceStatus": "priced",
       "isAvailable": true,
       "inventoryCount": 900,
-      "isFeatured": false,
+      "isFeatured": true,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:30:00Z",
+      "lastPriceUpdated": "2026-10-28T07:30:00Z",
+      "rating": {
+        "score": 4.67,
+        "reviewCount": 3
+      },
+      "weightOptions": [
+        "0.5 kg",
+        "1 kg",
+        "2 kg"
+      ],
       "wholesaleDetails": "Available in 40kg mesh jute sacks."
     },
     {
       "id": "ffv-red-carrots",
       "slug": "red-carrots",
       "name": "Red Carrots",
+      "localName": "Laal Gaajar",
       "category": "local",
       "description": "Traditional sweet red winter carrots, freshly pulled, washed, and crisp. Excellent for juicing, traditional desserts, and vegetable medleys.",
-      "imageUrl": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_70qzuo70qzuo70qz_63ba2751.jpg",
       "unit": "kg",
       "packSize": "Per kg",
       "minOrderQuantity": 1,
@@ -155,34 +191,52 @@
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:30:00Z"
+      "lastPriceUpdated": "2026-10-28T07:30:00Z",
+      "rating": {
+        "score": 4.8,
+        "reviewCount": 5
+      },
+      "weightOptions": [
+        "0.5 kg",
+        "1 kg"
+      ]
     },
     {
       "id": "ffv-orange-carrots",
       "slug": "orange-carrots",
       "name": "Orange Carrots",
+      "localName": "Orange Gaajar",
       "category": "local",
       "description": "Straight, firm orange carrots with clean snap and consistent diameter. Preferred by continental kitchens, roasting stations, and stockpots.",
-      "imageUrl": "https://images.unsplash.com/photo-1582515073490-39981397c445?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_u20ypyu20ypyu20y_b3ddd647.jpg",
       "unit": "kg",
       "packSize": "Per kg",
       "minOrderQuantity": 1,
-      "currentPrice": null,
-      "priceStatus": "request_rate",
+      "currentPrice": 140,
+      "priceStatus": "priced",
       "isAvailable": true,
       "inventoryCount": 350,
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:30:00Z"
+      "lastPriceUpdated": "2026-10-28T07:30:00Z",
+      "rating": {
+        "score": 4.9,
+        "reviewCount": 4
+      },
+      "weightOptions": [
+        "0.5 kg",
+        "1 kg"
+      ]
     },
     {
       "id": "ffv-green-capsicum",
       "slug": "green-capsicum",
       "name": "Green Capsicum",
+      "localName": "Shimla Mirch",
       "category": "local",
       "description": "Glossy, thick-walled green bell peppers with crisp flesh and zero hollow softening. Ideal for fajitas, pizzas, fried rice, and Chinese wok lines.",
-      "imageUrl": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_joj7q4joj7q4joj7_dcdf0f8f.jpg",
       "unit": "kg",
       "packSize": "Per kg",
       "minOrderQuantity": 1,
@@ -193,15 +247,24 @@
       "isFeatured": true,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:30:00Z"
+      "lastPriceUpdated": "2026-10-28T07:30:00Z",
+      "rating": {
+        "score": 4.9,
+        "reviewCount": 7
+      },
+      "weightOptions": [
+        "0.5 kg",
+        "1 kg"
+      ]
     },
     {
       "id": "ffv-garlic",
       "slug": "garlic",
       "name": "Garlic",
+      "localName": "Lehsan",
       "category": "local",
       "description": "Plump, dry garlic bulbs with tightly packed cloves and robust pungency. Cleaned and pre-sorted for minimum peeling loss.",
-      "imageUrl": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_qkqm56qkqm56qkqm_49690307.jpg",
       "unit": "kg",
       "packSize": "Per kg",
       "minOrderQuantity": 1,
@@ -212,34 +275,54 @@
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:30:00Z"
+      "lastPriceUpdated": "2026-10-28T07:30:00Z",
+      "rating": {
+        "score": 4.85,
+        "reviewCount": 6
+      },
+      "weightOptions": [
+        "0.25 kg",
+        "0.5 kg",
+        "1 kg"
+      ]
     },
     {
       "id": "ffv-ginger",
       "slug": "ginger",
       "name": "Ginger",
+      "localName": "Adrak",
       "category": "local",
       "description": "Firm, mature ginger rhizomes with taut skin and spicy, aromatic juice. Cleaned and low in woody fiber.",
-      "imageUrl": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_qdo4s2qdo4s2qdo4_6dd21516.jpg",
       "unit": "kg",
       "packSize": "Per kg",
       "minOrderQuantity": 1,
-      "currentPrice": null,
-      "priceStatus": "request_rate",
+      "currentPrice": 360,
+      "priceStatus": "priced",
       "isAvailable": true,
       "inventoryCount": 200,
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:30:00Z"
+      "lastPriceUpdated": "2026-10-28T07:30:00Z",
+      "rating": {
+        "score": 4.9,
+        "reviewCount": 5
+      },
+      "weightOptions": [
+        "0.25 kg",
+        "0.5 kg",
+        "1 kg"
+      ]
     },
     {
       "id": "ffv-cabbage",
       "slug": "cabbage",
       "name": "Cabbage",
+      "localName": "Band Gobi",
       "category": "local",
       "description": "Compact green cabbage with clean outer wrapping and tender internal layers. Perfect for coleslaw, egg rolls, and sauteed vegetable sides.",
-      "imageUrl": "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_v7p9riv7p9riv7p9_8bf95052.jpg",
       "unit": "kg",
       "packSize": "Per kg / Whole heads",
       "minOrderQuantity": 1,
@@ -250,15 +333,24 @@
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:30:00Z"
+      "lastPriceUpdated": "2026-10-28T07:30:00Z",
+      "rating": {
+        "score": 4.75,
+        "reviewCount": 4
+      },
+      "weightOptions": [
+        "1 kg",
+        "2 kg"
+      ]
     },
     {
       "id": "ffv-lemons",
       "slug": "lemons",
       "name": "Lemons",
+      "localName": "Desi Leemo",
       "category": "local",
       "description": "Thin-skinned, high-juice desi lemons with fragrant citrus zest. Sourced for high beverage and marinade extraction yield.",
-      "imageUrl": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_cie5bgcie5bgcie5_af8a4ddb.jpg",
       "unit": "kg",
       "packSize": "Per kg",
       "minOrderQuantity": 1,
@@ -269,15 +361,24 @@
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:30:00Z"
+      "lastPriceUpdated": "2026-10-28T07:30:00Z",
+      "rating": {
+        "score": 5,
+        "reviewCount": 6
+      },
+      "weightOptions": [
+        "0.5 kg",
+        "1 kg"
+      ]
     },
     {
       "id": "ffv-broccoli",
       "slug": "broccoli",
       "name": "Broccoli",
+      "localName": "Fresh Broccoli",
       "category": "local",
       "description": "Freshly harvested dark green crowns with tightly closed florets and crisp stalks. Retains vibrant color and bite upon steaming or grilling.",
-      "imageUrl": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_4f688g4f688g4f68_5ac21bb4.jpg",
       "unit": "kg",
       "packSize": "Per kg",
       "minOrderQuantity": 1,
@@ -288,18 +389,27 @@
       "isFeatured": true,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:30:00Z"
+      "lastPriceUpdated": "2026-10-28T07:30:00Z",
+      "rating": {
+        "score": 4.95,
+        "reviewCount": 10
+      },
+      "weightOptions": [
+        "0.5 kg",
+        "1 kg"
+      ]
     },
     {
       "id": "ffv-potatoes",
       "slug": "potatoes",
       "name": "Potatoes",
+      "localName": "Aloo",
       "category": "local",
       "description": "Smooth, unsprouted grade-A potatoes selected for low sugar and consistent starch density. Reliable for roasting, mashing, and hand-cut fries.",
-      "imageUrl": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_6x7btf6x7btf6x7b_7cfb0dd8.jpg",
       "unit": "kg",
       "packSize": "Per kg",
-      "minOrderQuantity": 5,
+      "minOrderQuantity": 1,
       "currentPrice": 95,
       "priceStatus": "priced",
       "isAvailable": true,
@@ -307,54 +417,82 @@
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:30:00Z",
+      "lastPriceUpdated": "2026-10-28T07:30:00Z",
+      "rating": {
+        "score": 4.8,
+        "reviewCount": 5
+      },
+      "weightOptions": [
+        "1 kg",
+        "2 kg",
+        "5 kg"
+      ],
       "wholesaleDetails": "Available in 50kg standard wholesale sacks."
     },
     {
       "id": "ffv-coriander",
       "slug": "coriander",
       "name": "Coriander",
+      "localName": "Dhanya - (Bunch)",
       "category": "local",
-      "description": "Vibrant green cilantro bunches with deep aroma and tender stems. Handled with gentle cooling to avoid wilting.",
-      "imageUrl": "https://images.unsplash.com/photo-1589135233689-d515a4b5d207?auto=format&fit=crop&w=800&q=80",
+      "description": "Vibrant green fresh cilantro bunches with deep aroma and tender stems. Handled with gentle cooling to avoid wilting.",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_ervsx9ervsx9ervs_f7333b33.jpg",
       "unit": "bunch",
-      "packSize": "Per bunch / kg",
-      "minOrderQuantity": 2,
-      "currentPrice": 40,
+      "packSize": "Per bunch",
+      "minOrderQuantity": 1,
+      "currentPrice": 25,
       "priceStatus": "priced",
       "isAvailable": true,
       "inventoryCount": 300,
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:30:00Z"
+      "lastPriceUpdated": "2026-10-28T07:30:00Z",
+      "rating": {
+        "score": 5,
+        "reviewCount": 4
+      },
+      "weightOptions": [
+        "1 Bunch",
+        "3 Bunches"
+      ]
     },
     {
       "id": "ffv-cucumbers",
       "slug": "cucumbers",
       "name": "Cucumbers",
+      "localName": "Kheera",
       "category": "local",
-      "description": "Straight, firm desi cucumbers with thin edible skin and small seeds. Crisp texture for salads, raitas, and sandwich platters.",
-      "imageUrl": "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?auto=format&fit=crop&w=800&q=80",
+      "description": "Straight, firm crisp cucumbers with thin edible skin and small seeds. Crisp texture for salads, raitas, and sandwich platters.",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_i6qfizi6qfizi6qf_bca59404.jpg",
       "unit": "kg",
       "packSize": "Per kg",
       "minOrderQuantity": 1,
-      "currentPrice": 120,
+      "currentPrice": 80,
       "priceStatus": "priced",
       "isAvailable": true,
       "inventoryCount": 500,
       "isFeatured": true,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:30:00Z"
+      "lastPriceUpdated": "2026-10-28T07:30:00Z",
+      "rating": {
+        "score": 5,
+        "reviewCount": 5
+      },
+      "weightOptions": [
+        "0.5kg",
+        "1kg"
+      ]
     },
     {
       "id": "ffv-green-chillies",
       "slug": "green-chillies",
       "name": "Green Chillies",
+      "localName": "Hari Mirch",
       "category": "local",
       "description": "Crisp green hot chillies with glossy skin and sharp pungency. Hand-inspected to exclude soft or dried tips.",
-      "imageUrl": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_o5tiwpo5tiwpo5ti_275bf776.jpg",
       "unit": "kg",
       "packSize": "Per kg",
       "minOrderQuantity": 1,
@@ -365,15 +503,25 @@
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:30:00Z"
+      "lastPriceUpdated": "2026-10-28T07:30:00Z",
+      "rating": {
+        "score": 4.85,
+        "reviewCount": 3
+      },
+      "weightOptions": [
+        "0.25 kg",
+        "0.5 kg",
+        "1 kg"
+      ]
     },
     {
       "id": "ffv-red-capsicum",
       "slug": "red-capsicum",
       "name": "Red Capsicum",
-      "category": "imported",
-      "description": "Imported sweet red bell peppers with sweet sugary crunch and deep carmine coloring. Perfect for gourmet pizzas, antipasti, and plated presentations.",
-      "imageUrl": "https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?auto=format&fit=crop&w=800&q=80",
+      "localName": "Laal Shimla Mirch",
+      "category": "local",
+      "description": "Sweet red bell peppers with sugary crunch and deep carmine coloring. Perfect for gourmet pizzas, salads, antipasti, and plated presentations.",
+      "imageUrl": "/assets/produce/red-capsicum.jpg",
       "unit": "kg",
       "packSize": "Per kg",
       "minOrderQuantity": 1,
@@ -384,15 +532,24 @@
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:00:00Z"
+      "lastPriceUpdated": "2026-10-28T07:00:00Z",
+      "rating": {
+        "score": 4.9,
+        "reviewCount": 4
+      },
+      "weightOptions": [
+        "0.5 kg",
+        "1 kg"
+      ]
     },
     {
       "id": "ffv-yellow-capsicum",
       "slug": "yellow-capsicum",
       "name": "Yellow Capsicum",
-      "category": "imported",
-      "description": "Imported golden-yellow bell peppers featuring gentle sweetness and firm structural walls. Excellent for high-end chef presentations and colorful stir-fries.",
-      "imageUrl": "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80",
+      "localName": "Peeli Shimla Mirch",
+      "category": "local",
+      "description": "Golden-yellow bell peppers featuring gentle sweetness and firm structural walls. Excellent for high-end chef presentations and colorful stir-fries.",
+      "imageUrl": "/assets/produce/yellow-capsicum.jpg",
       "unit": "kg",
       "packSize": "Per kg",
       "minOrderQuantity": 1,
@@ -403,15 +560,24 @@
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:00:00Z"
+      "lastPriceUpdated": "2026-10-28T07:00:00Z",
+      "rating": {
+        "score": 4.88,
+        "reviewCount": 3
+      },
+      "weightOptions": [
+        "0.5 kg",
+        "1 kg"
+      ]
     },
     {
       "id": "ffv-cherry-tomatoes",
       "slug": "cherry-tomatoes",
       "name": "Cherry Tomatoes",
-      "category": "imported",
-      "description": "Plump, glossy imported cherry tomatoes packed with intense umami sweetness. High burst resistance, ideal for whole roasting and artisan salads.",
-      "imageUrl": "https://images.unsplash.com/photo-1546470427-0d4db154ceb7?auto=format&fit=crop&w=800&q=80",
+      "localName": "Cherry Timater",
+      "category": "local",
+      "description": "Plump, glossy vine cherry tomatoes packed with intense umami sweetness. High burst resistance, ideal for whole roasting and artisan salads.",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_juf55fjuf55fjuf5_48dc1e73.jpg",
       "unit": "pack",
       "packSize": "250g Clamshell / kg",
       "minOrderQuantity": 1,
@@ -422,34 +588,53 @@
       "isFeatured": true,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:00:00Z"
+      "lastPriceUpdated": "2026-10-28T07:00:00Z",
+      "rating": {
+        "score": 5,
+        "reviewCount": 9
+      },
+      "weightOptions": [
+        "250g Pack",
+        "500g Pack",
+        "1 kg"
+      ]
     },
     {
       "id": "ffv-rocket-arugula",
       "slug": "rocket-arugula",
       "name": "Rocket (Arugula)",
-      "category": "imported",
-      "description": "Tender peppery arugula leaves with characteristic serrated edges. Flown in under controlled temperature for zero stem moisture damage.",
-      "imageUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+      "localName": "Arugula / Tarameera Leaves",
+      "category": "local",
+      "description": "Tender peppery arugula leaves with characteristic serrated edges. Handled under controlled temperature for zero stem moisture damage.",
+      "imageUrl": "/assets/produce/rocket-arugula.jpg",
       "unit": "pack",
       "packSize": "150g Punnet / 500g Kitchen Pack",
       "minOrderQuantity": 1,
-      "currentPrice": null,
-      "priceStatus": "request_rate",
+      "currentPrice": 180,
+      "priceStatus": "priced",
       "isAvailable": true,
       "inventoryCount": 80,
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:00:00Z"
+      "lastPriceUpdated": "2026-10-28T07:00:00Z",
+      "rating": {
+        "score": 4.8,
+        "reviewCount": 2
+      },
+      "weightOptions": [
+        "150g Punnet",
+        "500g Pack"
+      ]
     },
     {
       "id": "ffv-parsley",
       "slug": "parsley",
       "name": "Parsley",
-      "category": "imported",
-      "description": "Flat-leaf Italian and curly parsley with clean peppery notes. Essential herb for chimichurri, garnishes, and French emulsion sauces.",
-      "imageUrl": "https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?auto=format&fit=crop&w=800&q=80",
+      "localName": "Italian Parsley",
+      "category": "local",
+      "description": "Fresh flat-leaf Italian parsley with clean peppery notes. Essential herb for chimichurri, garnishes, and fine kitchen culinary emulsion sauces.",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_kuemovkuemovkuem_eb5f9dc4.jpg",
       "unit": "bunch",
       "packSize": "Per bunch (100g)",
       "minOrderQuantity": 1,
@@ -460,53 +645,80 @@
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:00:00Z"
+      "lastPriceUpdated": "2026-10-28T07:00:00Z",
+      "rating": {
+        "score": 4.9,
+        "reviewCount": 3
+      },
+      "weightOptions": [
+        "1 Bunch",
+        "3 Bunches"
+      ]
     },
     {
       "id": "ffv-basil-leaves",
       "slug": "basil-leaves",
       "name": "Basil Leaves",
-      "category": "imported",
-      "description": "Sweet Genovese basil leaves with sweet aroma and tender texture. Carefully handled to prevent black bruising for fine pestos and Caprese salads.",
-      "imageUrl": "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?auto=format&fit=crop&w=800&q=80",
+      "localName": "Sweet Basil",
+      "category": "local",
+      "description": "Sweet Genovese basil leaves with fragrant aroma and tender texture. Carefully handled to prevent black bruising for fine pestos and Caprese salads.",
+      "imageUrl": "/assets/produce/basil-leaves.jpg",
       "unit": "pack",
       "packSize": "100g Fresh Pack",
       "minOrderQuantity": 1,
-      "currentPrice": null,
-      "priceStatus": "request_rate",
+      "currentPrice": 150,
+      "priceStatus": "priced",
       "isAvailable": true,
       "inventoryCount": 95,
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:00:00Z"
+      "lastPriceUpdated": "2026-10-28T07:00:00Z",
+      "rating": {
+        "score": 4.85,
+        "reviewCount": 4
+      },
+      "weightOptions": [
+        "100g Pack",
+        "250g Pack"
+      ]
     },
     {
       "id": "ffv-leeks",
       "slug": "leeks",
       "name": "Leeks",
-      "category": "imported",
-      "description": "Thick, straight imported leeks with tender white shanks and healthy green tops. Cleaned of coarse sand for quick preparation of soups and braises.",
-      "imageUrl": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80",
+      "localName": "Fresh Leeks",
+      "category": "local",
+      "description": "Thick, straight leeks with tender white shanks and healthy green tops. Cleaned of coarse sand for quick preparation of soups, stocks, and braises.",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_jdvim1jdvim1jdvi_1aed51a7.jpg",
       "unit": "kg",
       "packSize": "Per kg",
       "minOrderQuantity": 1,
-      "currentPrice": 650,
+      "currentPrice": 450,
       "priceStatus": "priced",
       "isAvailable": true,
       "inventoryCount": 75,
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:00:00Z"
+      "lastPriceUpdated": "2026-10-28T07:00:00Z",
+      "rating": {
+        "score": 4.9,
+        "reviewCount": 5
+      },
+      "weightOptions": [
+        "0.5 kg",
+        "1 kg"
+      ]
     },
     {
       "id": "ffv-lolo-rose-lettuce",
       "slug": "lolo-rose-lettuce",
       "name": "Lolo Rose Lettuce",
-      "category": "imported",
-      "description": "Frilled, deep burgundy-tipped specialty lettuce providing dramatic visual height and tender bitterness to mixed salad bowls.",
-      "imageUrl": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=800&q=80",
+      "localName": "Lollo Rosso",
+      "category": "local",
+      "description": "Frilled, deep burgundy-tipped specialty lettuce providing dramatic visual height and tender bitterness to gourmet salad bowls.",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_p45eglp45eglp45e_4ba4b8fb.jpg",
       "unit": "piece",
       "packSize": "Whole Head (approx 200g)",
       "minOrderQuantity": 1,
@@ -517,53 +729,81 @@
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:00:00Z"
+      "lastPriceUpdated": "2026-10-28T07:00:00Z",
+      "rating": {
+        "score": 5,
+        "reviewCount": 6
+      },
+      "weightOptions": [
+        "1 Head",
+        "3 Heads"
+      ]
     },
     {
       "id": "ffv-celery-leaves",
       "slug": "celery-leaves",
       "name": "Celery Leaves",
-      "category": "imported",
-      "description": "Crisp, ribbed imported celery stalks with fragrant leaves. Rich in natural sodium and crisp snap for stocks, mirepoix, and cocktails.",
-      "imageUrl": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=800&q=80",
+      "localName": "Celery",
+      "category": "local",
+      "description": "Crisp, ribbed celery stalks with fragrant leaves. Rich in natural flavor and crisp snap for stocks, mirepoix, soups, and cocktails.",
+      "imageUrl": "/assets/produce/celery-leaves.jpg",
       "unit": "kg",
       "packSize": "Per kg",
       "minOrderQuantity": 1,
-      "currentPrice": 420,
+      "currentPrice": 320,
       "priceStatus": "priced",
       "isAvailable": true,
       "inventoryCount": 90,
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:00:00Z"
+      "lastPriceUpdated": "2026-10-28T07:00:00Z",
+      "rating": {
+        "score": 4.75,
+        "reviewCount": 2
+      },
+      "weightOptions": [
+        "0.5 kg",
+        "1 kg"
+      ]
     },
     {
       "id": "ffv-romaine-lettuce",
       "slug": "romaine-lettuce",
       "name": "Romaine Lettuce",
-      "category": "imported",
+      "localName": "Romaine Salat",
+      "category": "local",
       "description": "Tall, sturdy hearts of romaine lettuce with crunchy white ribs and deep green tops. The gold standard for classic Caesar salads.",
-      "imageUrl": "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_sq90nlsq90nlsq90_5237ba27.jpg",
       "unit": "kg",
       "packSize": "Per kg / Whole Hearts",
       "minOrderQuantity": 1,
-      "currentPrice": 390,
+      "currentPrice": 340,
       "priceStatus": "priced",
       "isAvailable": true,
       "inventoryCount": 140,
       "isFeatured": true,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:00:00Z"
+      "lastPriceUpdated": "2026-10-28T07:00:00Z",
+      "rating": {
+        "score": 5,
+        "reviewCount": 8
+      },
+      "weightOptions": [
+        "0.5 kg",
+        "1 kg",
+        "2 kg"
+      ]
     },
     {
       "id": "ffv-mushrooms",
       "slug": "mushrooms",
       "name": "Mushrooms",
-      "category": "imported",
+      "localName": "Khumbi / Button Mushrooms",
+      "category": "local",
       "description": "Plump white button and brown cremini mushrooms with closed veils and firm texture. Clean, dry, and moisture-free for even sauteing.",
-      "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_3mcdn03mcdn03mcd_36e12751.jpg",
       "unit": "pack",
       "packSize": "250g Punnet / 1kg Box",
       "minOrderQuantity": 1,
@@ -574,83 +814,49 @@
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:00:00Z"
+      "lastPriceUpdated": "2026-10-28T07:00:00Z",
+      "rating": {
+        "score": 4.9,
+        "reviewCount": 7
+      },
+      "weightOptions": [
+        "250g Punnet",
+        "500g Pack",
+        "1 kg Box"
+      ]
     },
     {
       "id": "ffv-rosemary",
       "slug": "rosemary",
       "name": "Rosemary",
-      "category": "imported",
-      "description": "Woody, needle-leaved rosemary sprigs packed with piney essential oils. Ideal for high-heat steak searing, roasted potatoes, and infused oils.",
-      "imageUrl": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=800&q=80",
+      "localName": "Fresh Rosemary",
+      "category": "local",
+      "description": "Woody, needle-leaved fresh rosemary sprigs packed with piney essential oils. Ideal for high-heat steak searing, roasted potatoes, and infused oils.",
+      "imageUrl": "/assets/aistudio/Gemini_Generated_Image_8ybytq8ybytq8yby_a09e5a2a.jpg",
       "unit": "pack",
       "packSize": "50g Fresh Herb Pack",
       "minOrderQuantity": 1,
-      "currentPrice": null,
-      "priceStatus": "request_rate",
+      "currentPrice": 120,
+      "priceStatus": "priced",
       "isAvailable": true,
       "inventoryCount": 60,
       "isFeatured": false,
       "isSpecialty": false,
       "publicationStatus": "published",
-      "lastPriceUpdated": "2026-10-25T07:00:00Z"
+      "lastPriceUpdated": "2026-10-28T07:00:00Z",
+      "rating": {
+        "score": 4.95,
+        "reviewCount": 4
+      },
+      "weightOptions": [
+        "50g Pack",
+        "100g Pack"
+      ]
     }
   ],
-  "orders": [
-    {
-      "id": "ord-1792998400354-91dd",
-      "orderReference": "FFV-2026-7S620354",
-      "customer": {
-        "fullName": "Chef Bilal Khan",
-        "phone": "0333-4934403",
-        "whatsAppNumber": "0333-4934403",
-        "businessName": "Bistro 6, DHA Phase 6",
-        "customerType": "Restaurant"
-      },
-      "delivery": {
-        "address": "Plot 18, Commercial CCA, Phase 6",
-        "area": "DHA Phase 6",
-        "city": "Lahore"
-      },
-      "items": [
-        {
-          "productId": "ffv-iceberg-lettuce",
-          "productName": "Iceberg Lettuce",
-          "category": "local",
-          "imageUrl": "https://images.unsplash.com/photo-1556801712-76c8eb07bbc9?auto=format&fit=crop&w=800&q=80",
-          "unit": "kg",
-          "packSize": "Per kg / Whole heads",
-          "unitPrice": 280,
-          "priceStatus": "priced",
-          "quantity": 1
-        },
-        {
-          "productId": "ffv-tomatoes",
-          "productName": "Tomatoes",
-          "category": "local",
-          "imageUrl": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=800&q=80",
-          "unit": "kg",
-          "packSize": "Per kg",
-          "unitPrice": 160,
-          "priceStatus": "priced",
-          "quantity": 1
-        }
-      ],
-      "subtotal": 440,
-      "hasUnconfirmedPrices": false,
-      "deliveryCharge": null,
-      "discount": 0,
-      "total": 440,
-      "status": "Order Confirmed",
-      "paymentMethod": "whatsapp_confirmation",
-      "paymentStatus": "Pending",
-      "createdAt": "2026-10-26T07:06:40.354Z",
-      "updatedAt": "2026-10-26T07:06:40.354Z"
-    }
-  ],
-  "inquiries": [],
   "settings": {
     "businessName": "Fresh Farm Vegetables",
+    "logoUrl": "/assets/aistudio/fresh_vegetables_app_icon_1024_8f1ed187.png",
     "primaryTagline": "Premium Quality, Farm-Fresh Produce for Professional Kitchens",
     "phoneNumber": "0333-4934403",
     "whatsAppNumber": "0333-4934403",
